@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kasolo Mambwe" />
+    <meta
+      name="description"
+      content="Software Developer Personal Portfolio website for Kasolo Mambwe"
+    />
+    <meta
+      property="og:image"
+      content=""
+    />
+    <meta
+      name="og:image:alt"
+      content="Screenshot of kasolo mambwe portfolio homepage"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="kasolo Mambwe | Portfolio Site" />
+    <meta
+      property="og:description"
+      content="I am kasolo mambwe an Innovative and competent software developer with three years of experience in Software
+development. Competent in web application creation as well as mobile application development.
+Experienced in working using php and java for software development. Interested in social
+entrepreneurship and building software solutions that improve people's lives."
+    />
+    <meta property="og:url" content="https://natashajohnson.dev/" />
+    <meta
+      name="twitter:image"
+      content=""
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Screenshot of kasolo mambwe 's portfolio homepage"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>&lt;km&sol;&gt; Kasolo Mambwe | Portfolio</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <nav class="nav center">
+        <div class="nav__header">
+          <a href="#home" class="nav__brand">&lt;km&sol;&gt;</a>
+          <ul class="nav__links">
+            <li><a href="#home" class="nav__link">Home</a></li>
+            <li><a href="#projects" class="nav__link">Projects</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+          <span class="nav__hamburger" id="hamburger"></span>
+        </div>
+      </nav>
+    </header>
+
+    <aside class="sidebar">
+      <ul class="sidebar__links">
+        <li><a href="#home" class="sidebar__link" data-id="home">Home</a></li>
+        <li>
+          <a href="#projects" class="sidebar__link" data-id="projects"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a href="#about" class="sidebar__link" data-id="about">About</a>
+        </li>
+        <li>
+          <a href="#contact" class="sidebar__link" data-id="contact">Contact</a>
+        </li>
+      </ul>
+    </aside>
+
+    <main>
+      <!-- hero section-->
+      <section class="hero" id="home">
+        <article class="hero__container center">
+          <p class="hero__subheading">Kasolo Mambwe</p>
+          <h1 class="hero__heading">
+            <div class="hero__list">
+              <span>S</span>
+              <span>o</span>
+              <span>f</span>
+              <span>t</span>
+              <span>w</span>
+              <span>a</span>
+              <span>r</span>
+              <span>e</span>
+              <span></span>
+              <span>&nbsp;</span>
+            </div>
+            <div class="hero__list">
+              <span>D</span>
+              <span>e</span>
+              <span>v</span>
+              <span>e</span>
+              <span>l</span>
+              <span>o</span>
+              <span>p</span>
+              <span>e</span>
+              <span>r</span>
+            </div>
+          </h1>
+          <div class="hero__buttons">
+            <a href="#projects" class="btn hero__btn--primary">Projects</a>
+            <a href="#contact" class="btn hero__btn--secondary">Contact</a>
+          </div>
+
+          <ul class="contact__links center">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/natasha--johnson/"
+                target="_blank"
+                class="contact__link"
+                rel="noopener"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/artsycoder533"
+                target="_blank"
+                class="contact__link"
+                rel="noopener"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://codepen.io/artsycoder"
+                target="_blank"
+                class="contact__link"
+                rel="noopener"
+                ><i class="fab fa-codepen"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q"
+                target="_blank"
+                class="contact__link"
+                rel="noopener"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- projects section -->
+      <section class="projects" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <article class="projects__container center">
+
+          <div class="projects__card">
+            <div class="projects__image">
+              <img src="loansss.png" alt="city loans" class="img" />
+            </div>
+            <div class="projects__text">
+              <h3 class="projects__title">City Loans</h3>
+              <p class="projects__description">
+                A loan management system created with the laravel framework 
+              </p>
+              <p class="projects__stack">
+                Built With: laravel php ,
+                
+              </p>
+              <div class="project__buttons">
+                <a
+                  href=""
+                  target="_blank"
+                  class="btn project__btn--primary"
+                  type="button"
+                  aria-label="1st & Third Live Site"
+                  rel="noopener"
+                  >Live Site</a
+                >
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__image">
+              <img src="sheq.png" alt="Productiv" class="img" />
+            </div>
+            <div class="projects__text">
+              <h3 class="projects__title">Sheq business college </h3>
+              <p class="projects__description">
+              is a Teveta registered institution in Zambia .Our main objective is to offer affordable competitive and quality services to Zambia and the entire southern African regional companies and individuals in strategic Business management Systems .We have well qualified trainers and consultants with over 30 years of local and international experience in their respective fields.
+              </p>
+              <p class="projects__stack">
+                Built With: wordpress cms
+              </p>
+              <div class="project__buttons">
+                <a
+                  href="https://sheqbusinesscollege.org"
+                  target="_blank"
+                  class="btn project__btn--primary"
+                  type="button"
+                  aria-label="Productiv Live Site"
+                  rel="noopener"
+                  >Live Site</a
+                >
+              
+                
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__image">
+              <img src="onlineapplication.png" alt="Productiv" class="img" />
+            </div>
+            <div class="projects__text">
+              <h3 class="projects__title">online application systems for nightingale college</h3>
+              <p class="projects__description">
+                online application system used to give admission to prospects students that wish to join the school the system is currenting in testing phase not yet in production.
+              </p>
+              <p class="projects__stack">
+                Built With: php 
+              </p>
+              <div class="project__buttons">
+                <a
+                  href=""
+                  target="_blank"
+                  class="btn project__btn--primary"
+                  type="button"
+                  aria-label="Visions of Hope Psychological Services, LLC Live Site"
+                  rel="noopener"
+                  >Live Site</a
+                >
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__image">
+              <img
+                src="ncnas.png"
+                alt=" Homepage"
+                class="img"
+              />
+            </div>
+            <div class="projects__text">
+              <h3 class="projects__title">
+                nightingale college of nursing and applied sciences website
+              </h3>
+              <p class="projects__description">
+                Nightingale College of Nursing and Applied Sciences (NCNAS) is a newly established Private college  by Shares registered with the Patent and Company Registration Agency (PACRA). The college is situated in New Woodlands Extension, Plot2334/K/M, off Godfrey Chitalu Road Lusaka. The college will be offering Registered Nursing (RN) Diploma
+              </p>
+              <p class="projects__stack">Built With: wordpress</p>
+              <div class="project__buttons">
+                <a
+                  href="https://ncnas.edu.zm/about/"
+                  target="_blank"
+                  class="btn project__btn--primary"
+                  type="button"
+                  aria-label="Link to Atlas Behavioral Health & Wellness Live Site"
+                  rel="noopener"
+                  >Live Site</a
+                >
+                
+              </div>
+            </div>
+          </div>
+          <div class="projects__card">
+            <div class="projects__image">
+              <img src="sheq.png" alt="Productiv" class="img" />
+            </div>
+            <div class="projects__text">
+              <h3 class="projects__title">Sheq business college </h3>
+              <p class="projects__description">
+              is a Teveta registered institution in Zambia .Our main objective is to offer affordable competitive and quality services to Zambia and the entire southern African regional companies and individuals in strategic Business management Systems .We have well qualified trainers and consultants with over 30 years of local and international experience in their respective fields.
+              </p>
+              <p class="projects__stack">
+                Built With: wordpress cms
+              </p>
+              <div class="project__buttons">
+                <a
+                  href="https://sheqbusinesscollege.org"
+                  target="_blank"
+                  class="btn project__btn--primary"
+                  type="button"
+                  aria-label="Productiv Live Site"
+                  rel="noopener"
+                  >Live Site</a
+                >
+              
+                
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__image">
+              <img src="api_students.PNG" alt="Productiv" class="img" />
+            </div>
+            <div class="projects__text">
+              <h3 class="projects__title">student Backened API for deleting ,updating ,creating and read</h3>
+              <p class="projects__description">
+              A Crud stduent Backened APi for a Student information management system 
+              </p>
+              <p class="projects__stack">
+                Built With: php laravel 8</p>
+              <div class="project__buttons">
+                <a
+                  href=""
+                  target="_blank"
+                  class="btn project__btn--primary"
+                  type="button"
+                  aria-label="Visions of Hope Psychological Services, LLC Live Site"
+                  rel="noopener"
+                  >Live Site</a
+                >
+                
+              </div>
+            </div>
+          </div>
+          <section class="projects" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <article class="projects__container center">
+    
+              <div class="projects__card">
+                <div class="projects__image">
+                  <img src="quiz.PNG" alt="city loans" class="img" />
+                </div>
+                <div class="projects__text">
+                  <h3 class="projects__title">online quize management system</h3>
+                  <p class="projects__description">
+                    An online quize management system created with the laravel framework 
+                  </p>
+                  <p class="projects__stack">
+                    Built With: laravel php ,
+                    
+                  </p>
+                  <div class="project__buttons">
+                    <a
+                      href=""
+                      target="_blank"
+                      class="btn project__btn--primary"
+                      type="button"
+                      aria-label="1st & Third Live Site"
+                      rel="noopener"
+                      >Live Site</a
+                    >
+                    
+                  </div>
+                </div>
+              </div>
+    
+      <!-- about section -->
+      <section class="about" id="about">
+        <section class="center">
+          <h2 class="section__title">About Me</h2>
+          <article class="about__container">
+            <div class="about__bio">
+              <h3 class="skills_bio">Bio</h3>
+              <p>
+                I am kasolo mambwe a Software Developer  <a
+                  href=""
+                  class="about__link"
+                  target="_blank"
+                  rel="noopener"
+                  ></a
+                >
+                
+                <a
+                  
+                  class="about__link"
+                  target="_blank"
+                  rel="noopener"
+                  ></a
+                >
+               an Innovative and competent software developer with three years of experience in Software
+development. Competent in web application creation as well as mobile application development.
+Software Development  using php and java for software development. Interested in social
+entrepreneurship and building software solutions that improve people's lives.
+              </p>
+            </div>
+            <div class="about__skills">
+              <h3 class="skills__title">Skills</h3>
+              <div class="about__skilllist">
+                <div>
+                  <i class="fab fa-html5" alt="Html5 logo"></i>
+                  <p>HTML 5</p>
+                </div>
+                <div>
+                  <i class="fab fa-css3-alt" alt="Css3 logo"></i>
+                  <p>CSS</p>
+                </div>
+                <div>
+                  <i class="fab fa-wordpress" alt="wordpress logo"></i>
+                  <p>wordpress</p>
+                </div>
+                <div>
+                  <i class="fab fa-js-square" alt="JavaScript logo"></i>
+                  <p>JavaScript</p>
+                </div>
+                <div>
+                  <i class="fab fa-php" alt="php logo"></i>
+                  <p>php</p>
+                </div>
+                <div>
+                  <i class="fab fa-git" alt="Git logo"></i>
+                  <p>Git</p>
+                </div>
+                <div>
+                  <i class="fab fa-github" alt="Github logo"></i>
+                  <p>Github</p>
+                </div>
+                <div>
+                  <i class="fab fa-java" alt="java logo"></i>
+                  <p>Java</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <!-- contact section -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <section class="contact__container">
+          <form
+            action="https://formspree.io/f/moqybgqo"
+            method="POST"
+            class="contact__form"
+            id="form"
+          >
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required />
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+            <button
+              class="btn contact__button--primary"
+              id="send"
+              type="submit"
+            >
+              Send
+            </button>
+            <span class="contact__success"></span>
+          </form>
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <small
+        >&copy <span id="date"></span> Coded & Created By: kasolo 
+        Mambwe</small
+      >
+    </footer>
+  </body>
+</html>
